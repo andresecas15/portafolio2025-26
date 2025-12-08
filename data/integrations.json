@@ -1,0 +1,22 @@
+[
+  {
+    "name": "API Fiscal Bridge",
+    "summary": "Sincronización de datos fiscales y validaciones automáticas entre sistemas primario y secundario.",
+    "protocols": ["REST","OAuth2","Retry"]
+  },
+  {
+    "name": "Carrier & Tracking Hub",
+    "summary": "Unificación de tracking y cotización de múltiples proveedores logísticos con normalización de estados.",
+    "protocols": ["REST","Webhooks","HMAC"]
+  },
+  {
+    "name": "Multi-API Orchestrator",
+    "summary": "Capa de orquestación con manejo de rate limits, circuit breaker y logging estructurado.",
+    "protocols": ["REST","Queue","CircuitBreaker"]
+  },
+  {
+    "name": "Finanzas & Visibilidad",
+    "summary": "Extracción incremental y visualización de capital comprometido y flujos de compra.",
+    "protocols": ["Incremental","ETL","Batch"]
+  }
+]

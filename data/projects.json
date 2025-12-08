@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Odoo Bridge Financiero",
+    "description": "Conexión dual entre sistemas para automatizar declaraciones y sincronizar saldos con validaciones fiscales.",
+    "categories": ["finanzas","integraciones"],
+    "stack": ["Python","REST","OAuth2","PostgreSQL"]
+  },
+  {
+    "title": "Triangulación de Fondos",
+    "description": "Tablero CRM para seguimiento de compras en tránsito, capital comprometido y visibilidad multi-etapa.",
+    "categories": ["finanzas","optimización"],
+    "stack": ["Odoo","QWeb","OWL","PostgreSQL"]
+  },
+  {
+    "title": "Surtex Mantenimiento",
+    "description": "Gestión de requisiciones de repuestos con control de ciclo, aprobaciones y prioridades logísticas.",
+    "categories": ["logistica","optimización"],
+    "stack": ["Odoo","Python","ORM","PostgreSQL"]
+  },
+  {
+    "title": "TruckFlow Control de Viajes",
+    "description": "Módulo para planificación, trazabilidad y costos por ruta con KPIs de rendimiento.",
+    "categories": ["logistica"],
+    "stack": ["Odoo","Python","Reportes","Grafana"]
+  },
+  {
+    "title": "MRW Connect",
+    "description": "Integración con servicio de tracking y cotización de envíos, manejo de reintentos y excepciones.",
+    "categories": ["logistica","integraciones"],
+    "stack": ["REST","Webhooks","HMAC","Odoo"]
+  },
+  {
+    "title": "Conectores Multi-API",
+    "description": "Framework interno para estandarizar autenticación, rate limiting y trazabilidad de integraciones.",
+    "categories": ["integraciones","optimización"],
+    "stack": ["Python","Redis","Message Queue","Logging"]
+  },
+  {
+    "title": "Optimización Core Odoo",
+    "description": "Refactor y reducción de tiempos críticos con índices, lazy loads y profiling sistemático.",
+    "categories": ["optimización"],
+    "stack": ["Python","PostgreSQL","Profiling","Caching"]
+  }
+]
